@@ -1,0 +1,142 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>GRID LAYOUT - Практика</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<!-- Оболочка (grid-контейнер) -->
+	<div class="wrapper">
+		<!-- Шапка (grid - элемент) -->
+		<header class="header">
+			<a href="" class="header__logo"></a>
+			<nav class="header__menu">
+				<ul class="header__list">
+					<li><a href="" class="header__link">Menu</a></li>
+					<li><a href="" class="header__link">Menu</a></li>
+					<li><a href="" class="header__link">Menu</a></li>
+					<li><a href="" class="header__link">Menu</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Контент (grid-элемент + grid-контейнер) -->
+		<main class="main">
+			<!-- Сайдбар (grid-элемент) -->
+			<aside class="sidebar">
+				<nav class="sidebar__menu">
+					<ul class="sidebar__list">
+						<li><a href="" class="sidebar__link">Link Menu</a></li>
+						<li><a href="" class="sidebar__link">Link Menu</a></li>
+						<li><a href="" class="sidebar__link">Link Menu</a></li>
+						<li><a href="" class="sidebar__link">Link Menu</a></li>
+						<li><a href="" class="sidebar__link">Link Menu</a></li>
+					</ul>
+				</nav>
+			</aside>
+			<!-- Контент (grid-элемент) -->
+			<section class="content">
+				<h1>GRID Layout - Практика</h1>
+				<section class="content__gallery gallery">
+					<h2 class="gallery__title">Галерея</h2>
+					<div class="gallery__items">
+						<div class="gallery__item gallery__item_big">
+							<img class="img1" src="https://scontent.fbhk1-1.fna.fbcdn.net/v/t1.6435-9/79473109_116375529842964_6435138684869148672_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tqeCqlE-6nUQ7kNvwHyc71X&_nc_oc=Admk_C9VkRPdtw87dNQQt2qT9f1nBp89ctvScomNVYBUs-JxsxJUtXaFW8oUwmZgagc&_nc_zt=23&_nc_ht=scontent.fbhk1-1.fna&_nc_gid=Pih2ZnuazbYbC5jBFSPpjQ&oh=00_AfhlGWoYlS3rqnkxRkkcW5lPJio3iChNus9_t6iuDjrT1Q&oe=694F937C	" alt="">
+						</div>
+						<div class="gallery__item">
+							<img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgldWrrC3it0SiN7xXbIdMPR758cAbqCTyUw&s" alt="">
+						</div>
+						<div class="gallery__item">
+							<img class="img3" src="https://i.pinimg.com/236x/42/48/9b/42489b1a667cc251935319ab901b49ea.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img class="img4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBV8sc2Z7UbokD1II_6c_w-3W66JLrMQjipw&s" alt="">
+						</div>
+						<div class="gallery__item">
+							<img class="img5" src="https://st.depositphotos.com/1766887/1279/i/450/depositphotos_12798548-Picteresque-town-in-Greece.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img class="img6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDftQ2N-7xEn7kRalVyjt1P2gnfxitGkdfig&s" alt="">
+						</div>
+						<div class="gallery__item">
+							<img class="img7" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_H6CVmAXaYMUWMjo6tyWj6EoAyked5pdZg&s" alt="">
+						</div>
+						<div class="gallery__item gallery__item_big">
+							<img class="img8" src="https://media.istockphoto.com/id/871126736/photo/molivos-the-picteresque-stone-alley-with-the-traditional-shops-which-it-was-voted-as-the.jpg?s=612x612&w=0&k=20&c=_USg1Em4AhBlgz_GXREaQdNJEBdWWTekBAjJhWnCEsY=" alt="">
+						</div>
+						<div class="img9" class="gallery__item">
+							<img class="img9" src="https://pbs.twimg.com/media/B81X_uxIEAAkab6.jpg" alt="">
+						</div>
+						<div class="gallery__item">
+							<img class="img10" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqg71ASUAKEvKVRbQFCo1u2l_11lXza2fX0McKWrw1-QD5mfhcVhTXmnIWGBh91IdHL3X6GLmzPH4I1_DvVNZkK3SaroNJHrvZboeLYflUChMCvBgu8-aQ8Z9AYLrPMLsdPiU279MGA8w/s640/evelyn_shop_molyvos_mytilene.jpg" alt="">
+						</div>
+					</div>
+				</section>
+				<section class="content__products products">
+					<h2 class="products__title">Товары</h2>
+					<div class="products__items">
+						<div class="products__item">
+							<div class="products__image">
+								<img class="img11" src="/img/1.jpg" alt="">
+							</div>
+							<div class="products__name">Lorem ipsum dolor sit amet.</div>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<div class="products__image">
+								<img class="img12" src="/img/2.jpg" alt="">
+							</div>
+							<div class="products__name">Lorem ipsum dolor sit amet.</div>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<div class="products__image">
+								<img class="img13" src="/img/3.jpg" alt="">
+							</div>
+							<div class="products__name">Lorem ipsum dolor sit amet.</div>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<div class="products__image">
+								<img class="img14" src="/img/4.jpg" alt="">
+							</div>
+							<div class="products__name">Lorem ipsum dolor sit amet.</div>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<div class="products__image">
+								<img class="img15" src="/img/5.jpg" alt="">
+							</div>
+							<div class="products__name">Lorem ipsum dolor sit amet.</div>
+							<a href="" class="products__button">Купить</a>
+						</div>
+						<div class="products__item">
+							<div class="products__image">
+								<img class="img16" src="/img/forest.jpg" alt="">
+							</div>
+							<div class="products__name">Lorem ipsum dolor sit amet.</div>
+							<a href="" class="products__button">Купить</a>
+						</div>
+					</div>
+				</section>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__copy">Hunter</div>
+			<div class="footer__text">Lorem ipsum dolor sit amet.</div>
+		</footer>
+	</div>
+</body>
+
+</html>
